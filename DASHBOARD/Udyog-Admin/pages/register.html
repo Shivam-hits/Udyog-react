@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#5c68ff" />
+        <title>UDYOG - Register new account</title>
+        <link rel="stylesheet" href="../dist/css/style.css" />
+    </head>
+    <body>
+        <section class="flex justify-center" style="height: 100vh;">
+
+            <div class="card w-11/12 md:w-9/12 lg:w-5/12 my-auto mx-auto">
+
+                <div class="card-header justify-between border-b border-gray-100 py-3 mb-3">
+                    <h1 class="text-3xl">UDYOG<span class="text-theme-primary">.</span></h1>
+                    <a href="../index.html" class="theme-anchor">Back to home</a>
+                </div>
+
+                <div class="card-body" >
+                    <form action="" id="contactForm">
+
+                        <div class="mb-3 space-y-1">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" placeholder="Eg. test@zagreus.company" class="form-control">
+                        </div>
+    
+                        <div class="mb-3 space-y-1">
+                            <label for="firmName">Firm Name</label>
+                            <input type="text"  id="firmName" class="form-control" placeholder="zagreus">
+                        </div>
+    
+                        <div class="mb-3 space-y-1">
+                            <label for="gstNumber">GST Number</label>
+                            <input type="text"  id="gstNumber" class="form-control" placeholder="Eg. 22AAAAAA000A1Z5" >
+                        </div>
+    
+                        <div class="mb-3 space-y-1">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="number" id="phoneNumber"   placeholder="Phone Number" class="form-control">
+                        </div>
+    
+                        <div class="mb-3 space-y-1">
+                            <label for="Location">Location</label>
+                            <input type="text"  id="Location" class="form-control" placeholder="Eg. Lucknow">
+                        </div>
+    
+                        <div class="mb-3 space-y-1">
+                            <label for="License">License Document</label>
+                            <input type="file"  id="License" class="form-control" placeholder="Eg. Lucknow">
+                        </div>
+    
+                        <div class="flex justify-between items-center">
+                            <a href="./login.html" class="theme-anchor">Already have an account?</a>
+                            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
