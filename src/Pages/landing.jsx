@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./landing.css"
 function Landing() {
   return (
     <div>
@@ -41,8 +41,11 @@ function Landing() {
     </div>
   )
 }
-
 export default Landing;
+
+
+
+
 // <head>
 //     <meta charset="UTF-8">
 //     <meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -8,8 +8,8 @@ function App() {
     <div>
       {/* homepage */}
       <Landing/>
-      <Header />
-      <Footer />
+      {/* <Header />
+      <Footer /> */}
 
     </div>
   )
