@@ -57,31 +57,7 @@ function HomePage() {
           - NOTIFICATION TOAST
         --> */}
 
-        <div class="notification-toast" data-toast>
-
-          <button class="toast-close-btn" data-toast-close>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-
-          <div class="toast-banner">
-            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="Pan-40 & Pan-D" width="80" height="70">
-          </div>
-
-          <div class="toast-detail">
-
-            <p class="toast-message">
-              Someone in new just bought!Check it out
-            </p>
-
-            <p class="toast-title">
-              Pan-40 & Pan -D
-            </p>
-
-            <p class="toast-meta">
-              <time datetime="PT2M">2 Minutes</time> ago
-            </p>
-          </div>
-        </div>
+        
         
         {/* <!--
           - MAIN
@@ -99,7 +75,7 @@ function HomePage() {
 
               <div class="slider-container has-scrollbar">
 
-              <!--  <div class="slider-item">
+              {/* <!--  <div class="slider-item">
 
                   <img src="./new assets/images/logo_.png" alt="Buy Now!!! From UDYOG" class="banner-img">
 
@@ -117,7 +93,7 @@ function HomePage() {
 
                   </div>
 
-                </div>-->
+                </div>--> */}
 
                 <div class="slider-item">
 
@@ -125,7 +101,7 @@ function HomePage() {
 
                   <div class="banner-content">
 
-                    <!--<p class="banner-subtitle">Latest Deal's Available</p>-->
+                    {/* <!--<p class="banner-subtitle">Latest Deal's Available</p>--> */}
 
                     <h2 class="banner-title">Hurry Up To Avoid Last Minute Rush...</h2>
 
@@ -1849,66 +1825,10 @@ function HomePage() {
 
                       <div class="showcase-banner">
 
-                        <img src="./new assets/images/products/prodcut-2.png" alt="New Offer Products" width="300" class="product-img default">
-                        <img src="./new assets/images/products/prodcut-3.png" alt="New Offer products" width="300" class="product-img hover">
+                        <img src="./new assets/images/products/prodcut-2.png" alt="New Offer Products" width="300" class="product-img default" />
+                        <img src="./new assets/images/products/prodcut-3.png" alt="New Offer products" width="300" class="product-img hover" />
 
-                        <!--<p class="showcase-badge">15%</p>-->
-
-                        <div class="showcase-actions">
-
-                          <button class="btn-action">
-                            <ion-icon name="heart-outline"></ion-icon>
-                          </button>
-
-                          <button class="btn-action">
-                            <ion-icon name="eye-outline"></ion-icon>
-                          </button>
-
-                          <button class="btn-action">
-                            <ion-icon name="repeat-outline"></ion-icon>
-                          </button>
-
-                          <button class="btn-action">
-                            <ion-icon name="bag-add-outline"></ion-icon>
-                          </button>
-
-                        </div>
-
-                      </div>
-
-                      <div class="showcase-content">
-
-                        <a href="#" class="showcase-category">Combo Offer</a>
-
-                        <a href="#">
-                          <h3 class="showcase-title">New Arrivals</h3>
-                        </a>
-
-                        <div class="showcase-rating">
-                          <ion-icon name="star"></ion-icon>
-                          <ion-icon name="star"></ion-icon>
-                          <ion-icon name="star"></ion-icon>
-                          <ion-icon name="star-outline"></ion-icon>
-                          <ion-icon name="star-outline"></ion-icon>
-                        </div>
-
-                        <div class="price-box">
-                          <p class="price">190/-</p>
-                          <del>372/-</del>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <div class="showcase">
-
-                      <div class="showcase-banner">
-
-                        <img src="./new assets/images/products/prodcut-2.png" alt="New Offer Products" width="300" class="product-img default">
-                        <img src="./new assets/images/products/prodcut-3.png" alt="New Offer products" width="300" class="product-img hover">
-
-                        <!--<p class="showcase-badge">15%</p>-->
+                        {/* <!--<p class="showcase-badge">15%</p>--> */}
 
                         <div class="showcase-actions">
 
@@ -1964,7 +1884,7 @@ function HomePage() {
                         <img src="./new assets/images/products/prodcut-2.png" alt="New Offer Products" width="300" class="product-img default">
                         <img src="./new assets/images/products/prodcut-3.png" alt="New Offer products" width="300" class="product-img hover">
 
-                        <!--<p class="showcase-badge">15%</p>-->
+                        {/* <!--<p class="showcase-badge">15%</p>--> */}
 
                         <div class="showcase-actions">
 
@@ -2011,6 +1931,64 @@ function HomePage() {
 
                       </div>
 
+                      </div>
+                    </div>
+
+                    <div class="showcase">
+
+                      <div class="showcase-banner">
+
+                        <img src="./new assets/images/products/prodcut-2.png" alt="New Offer Products" width="300" class="product-img default">
+                        <img src="./new assets/images/products/prodcut-3.png" alt="New Offer products" width="300" class="product-img hover">
+
+                        {/* <!--<p class="showcase-badge">15%</p>--> */}
+
+                        <div class="showcase-actions">
+
+                          <button class="btn-action">
+                            <ion-icon name="heart-outline"></ion-icon>
+                          </button>
+
+                          <button class="btn-action">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </button>
+
+                          <button class="btn-action">
+                            <ion-icon name="repeat-outline"></ion-icon>
+                          </button>
+
+                          <button class="btn-action">
+                            <ion-icon name="bag-add-outline"></ion-icon>
+                          </button>
+
+                        </div>
+
+                      </div>
+
+                      <div class="showcase-content">
+
+                        <a href="#" class="showcase-category">Combo Offer</a>
+
+                        <a href="#">
+                          <h3 class="showcase-title">New Arrivals</h3>
+                        </a>
+
+                        <div class="showcase-rating">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star-outline"></ion-icon>
+                          <ion-icon name="star-outline"></ion-icon>
+                        </div>
+
+                        <div class="price-box">
+                          <p class="price">190/-</p>
+                          <del>372/-</del>
+                        </div>
+
+                      </div>
+
+                      </div>
                     </div>
 
                     <div class="showcase">
@@ -2030,7 +2008,7 @@ function HomePage() {
 
                           <button class="btn-action">
                             <ion-icon name="eye-outline"></ion-icon>
-                          </button>
+                          </button>9
 
                           <button class="btn-action">
                             <ion-icon name="repeat-outline"></ion-icon>
@@ -2067,6 +2045,7 @@ function HomePage() {
 
                       </div>
 
+                      </div>
                     </div>
 
                   <div class="showcase">
@@ -2180,15 +2159,16 @@ function HomePage() {
                       </div>
 
                     </div>
+                  </div>
 
                     <div class="showcase">
 
                       <div class="showcase-banner">
 
-                        <img src="./new assets/images/products/prodcut-2.png" alt="New Offer Products" width="300" class="product-img default">
-                        <img src="./new assets/images/products/prodcut-3.png" alt="New Offer products" width="300" class="product-img hover">
+                        <img src="./new assets/images/products/prodcut-2.png" alt="New Offer Products" width="300" class="product-img default" />
+                        <img src="./new assets/images/products/prodcut-3.png" alt="New Offer products" width="300" class="product-img hover" />
 
-                        <!--<p class="showcase-badge">15%</p>-->
+                        {/* <!--<p class="showcase-badge">15%</p>--> */}
 
                         <div class="showcase-actions">
 
@@ -2235,6 +2215,7 @@ function HomePage() {
 
                       </div>
 
+                      </div>
                     </div>
 
                     <div class="showcase">
@@ -2695,7 +2676,7 @@ function HomePage() {
         {/* 
         <!--
           - FOOTER
-        --> */}
+        -->  DONE*/}
         
  
         {/* <!--
