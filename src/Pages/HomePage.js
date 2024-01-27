@@ -2,8 +2,10 @@ import React from 'react'
 
 function HomePage() {
   return (
-      <div>
-        <div class="overlay" data-overlay></div>
+    <div>
+        <div class="overlay" data-overlay>
+
+        </div>
 
         {/* <!--
           - MODAL
@@ -48,44 +50,15 @@ function HomePage() {
           </div>
 
         </div>
+        {/* <!--  NOTIFICATION TOAST --> */}
 
-
-
-
-
-        {/* <!--
-          - NOTIFICATION TOAST
-        --> */}
-
-        
-        
-        {/* <!--
-          - MAIN
-        --> */}
-
+        {/* <!-- MAIN --> */}
         <main>
+          {/* <!-- BANNER --> */}
 
-          {/* <!--
-            - BANNER
-          --> */}
+          {/* <!-- CATEGORY --> */}
 
-         
-
-
-
-
-          {/* <!--
-            - CATEGORY
-          --> */}
-
-
-
-
-
-
-          {/* <!--
-            - PRODUCT
-          --> */}
+          {/* <!-- PRODUCT --> */}
 
           <div class="product-container">
 
@@ -115,9 +88,7 @@ function HomePage() {
                       <button class="sidebar-accordion-menu" data-accordion-btn>
 
                         <div class="menu-title-flex">
-                          <img src="./new assets/images/sun pharma_icon.png" alt="clothes" width="20" height="20"
-                            class="menu-title-img">
-
+                          <img src="./new assets/images/sun pharma_icon.png" alt="clothes" width="20" height="20" class="menu-title-img" />
                           <p class="menu-title">SUN PHARMA</p>
                         </div>
 
@@ -167,9 +138,7 @@ function HomePage() {
                       <button class="sidebar-accordion-menu" data-accordion-btn>
 
                         <div class="menu-title-flex">
-                          <img src="./new assets/images/alkem_icon.png" alt="footwear" class="menu-title-img" width="20"
-                            height="20">
-
+                          <img src="./new assets/images/alkem_icon.png" alt="footwear" class="menu-title-img" width="20" height="20" />
                           <p class="menu-title">ALKEM LABORATORIES</p>
                         </div>
 
@@ -219,9 +188,7 @@ function HomePage() {
                       <button class="sidebar-accordion-menu" data-accordion-btn>
 
                         <div class="menu-title-flex">
-                          <img src="./new assets/images/aristo_icon.jpg" alt="clothes" class="menu-title-img" width="20"
-                            height="20">
-
+                          <img src="./new assets/images/aristo_icon.jpg" alt="clothes" class="menu-title-img" width="20" height="20" />
                           <p class="menu-title">ARISTO INDIA</p>
                         </div>
 
@@ -264,8 +231,7 @@ function HomePage() {
                       <button class="sidebar-accordion-menu" data-accordion-btn>
 
                         <div class="menu-title-flex">
-                          <img src="./new assets/images/franco indian_icon.png" alt="perfume" class="menu-title-img" width="20"
-                            height="20">
+                          <img src="./new assets/images/franco indian_icon.png" alt="perfume" class="menu-title-img" width="20" height="20" />
 
                           <p class="menu-title">Franco-india</p>
                         </div>
@@ -316,8 +282,7 @@ function HomePage() {
                       <button class="sidebar-accordion-menu" data-accordion-btn>
 
                         <div class="menu-title-flex">
-                          <img src="./new assets/images/centaur pharma_icon.jpg" alt="cosmetics" class="menu-title-img" width="20"
-                            height="20">
+                          <img src="./new assets/images/centaur pharma_icon.jpg" alt="cosmetics" class="menu-title-img" width="20" height="20" />
 
                           <p class="menu-title">Centaur Pharma</p>
                         </div>
@@ -368,8 +333,7 @@ function HomePage() {
                       <button class="sidebar-accordion-menu" data-accordion-btn>
 
                         <div class="menu-title-flex">
-                          <img src="./new assets/images/cipla_icon.png" alt="glasses" class="menu-title-img" width="20"
-                            height="20">
+                          <img src="./new assets/images/cipla_icon.png" alt="glasses" class="menu-title-img" width="20" height="20" />
 
                           <p class="menu-title">Cipla India</p>
                         </div>
@@ -406,7 +370,7 @@ function HomePage() {
                       <button class="sidebar-accordion-menu" data-accordion-btn>
 
                         <div class="menu-title-flex">
-                          <img src="./new assets/images/Ipca logo_icon.png" alt="bags" class="menu-title-img" width="20" height="20">
+                          <img src="./new assets/images/Ipca logo_icon.png" alt="bags" class="menu-title-img" width="20" height="20" />
 
                           <p class="menu-title">IPCA LABS.</p>
                         </div>
@@ -467,8 +431,7 @@ function HomePage() {
                       <div class="showcase">
 
                         <a href="#" class="showcase-img-box">
-                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 mg capsules" width="75" height="75"
-                            class="showcase-img">
+                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 mg capsules" width="75" height="75" class="showcase-img" />
                         </a>
 
                         <div class="showcase-content">
@@ -497,8 +460,7 @@ function HomePage() {
                       <div class="showcase">
 
                         <a href="#" class="showcase-img-box">
-                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan d capsules" class="showcase-img"
-                            width="75" height="75">
+                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan d capsules" class="showcase-img" width="75" height="75" />
                         </a>
 
                         <div class="showcase-content">
@@ -526,8 +488,7 @@ function HomePage() {
                       <div class="showcase">
 
                         <a href="#" class="showcase-img-box">
-                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="girls t-shirt" class="showcase-img" width="75"
-                            height="75">
+                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="girls t-shirt" class="showcase-img" width="75" height="75" />
                         </a>
 
                         <div class="showcase-content">
@@ -555,8 +516,7 @@ function HomePage() {
                       <div class="showcase">
 
                         <a href="#" class="showcase-img-box">
-                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="woolen hat for men" class="showcase-img" width="75"
-                            height="75">
+                          <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="woolen hat for men" class="showcase-img" width="75" height="75" />
                         </a>
 
                         <div class="showcase-content">
@@ -610,7 +570,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="./order_for.html" class="showcase-img-box">
-                            <img src="./new assets/images/alkem_icon.png" alt="EMTY SOL. SYP." width="70" class="showcase-img">
+                            <img src="./new assets/images/alkem_icon.png" alt="EMTY SOL. SYP." width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -625,14 +585,6 @@ function HomePage() {
                               <p class="price">119/-</p>
                               <del>199/-</del>
 
-
-
-
-
-                            
-                                
-                              
-
                             </div>
 
                           </div>
@@ -642,7 +594,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="./order_for.html" class="showcase-img-box">
-                            <img src="./new assets/images/alkem_icon.png" alt="SWICH RANGE" width="70" class="showcase-img">
+                            <img src="./new assets/images/alkem_icon.png" alt="SWICH RANGE" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -665,7 +617,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/alkem_icon.png" alt="SUMO RANGE" width="70" class="showcase-img">
+                            <img src="./new assets/images/alkem_icon.png" alt="SUMO RANGE" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -688,7 +640,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/alkem_icon.png" alt="XONE RANGE" width="70" class="showcase-img">
+                            <img src="./new assets/images/alkem_icon.png" alt="XONE RANGE" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -714,7 +666,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/alkem_icon.png" alt="ZEDEX RANGE" width="70" class="showcase-img">
+                            <img src="./new assets/images/alkem_icon.png" alt="ZEDEX RANGE" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -737,7 +689,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/alkem_icon.png" alt="A TO Z  GROUP" width="70" class="showcase-img">
+                            <img src="./new assets/images/alkem_icon.png" alt="A TO Z  GROUP" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -760,7 +712,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/alkem_icon.png" alt="SUMO RANGE" width="70" class="showcase-img">
+                            <img src="./new assets/images/alkem_icon.png" alt="SUMO RANGE" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -783,7 +735,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -820,7 +772,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -843,7 +795,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -866,7 +818,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -889,7 +841,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -916,7 +868,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -939,7 +891,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -962,7 +914,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -985,7 +937,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -1232,7 +1184,7 @@ function HomePage() {
                       <div class="showcase">
                         
                         <div class="showcase-banner">
-                          <img src="./new assets/images/product combo ipca.png" alt="zoryl M1 & M2 combo" class="showcase-img">
+                          <img src="./new assets/images/product combo ipca.png" alt="zoryl M1 & M2 combo" class="showcase-img" />
                         </div>
 
                         <div class="showcase-content">
@@ -1321,7 +1273,7 @@ function HomePage() {
                       <div class="showcase">
                     
                         <div class="showcase-banner">
-                          <img src="./new assets/images/product combo ipca.png" alt="Zoryl M-1 & Zoryl M-2" class="showcase-img">
+                          <img src="./new assets/images/product combo ipca.png" alt="Zoryl M-1 & Zoryl M-2" class="showcase-img" />
                         </div>
                     
                         <div class="showcase-content">
@@ -1402,16 +1354,11 @@ function HomePage() {
                 {/* <!--
                   - PRODUCT GRID
                 --> */}
+              </div>
+            </div>
+          </div>
 
-                
-
-
-
-
-
-          {/* <!--
-            - TESTIMONIALS, CTA & SERVICE
-          --> */}
+          {/* <!-- TESTIMONIALS, CTA & SERVICE --> */}
 
             <div class="container">
 
@@ -1525,135 +1472,19 @@ function HomePage() {
 
             </div>
 
-          {/* <!--
-            - BLOG
-          --> */}
-
-          <div class="blog">
-
-            <div class="container">
-
-              <div class="blog-container has-scrollbar">
-
-                <div class="blog-card">
-
-                  <a href="#">
-                    <img src="./new assets/images/blog-jb chemicals.png" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner">
-                  </a>
-
-                  <div class="blog-content">
-
-                    <a href="#" class="blog-category">J.B. Chemicals Ltd.</a>
-
-                    <a href="#">
-                      <h3 class="blog-title">We have alll the divisons in J.B. Chemicals, order now.</h3>
-                    </a>
-
-                    <p class="blog-meta">
-                      By <cite>Team Udyog</cite> / <time datetime="2022-04-06">Apr 19, 2023</time>
-                    </p>
-
-                  </div>
-
-                </div>
-
-                <div class="blog-card">
-                
-                  <a href="#">
-                    <img src="./new assets/images/blog-glenmark.png" alt="Curbside fashion Trends: How to Win the Pickup Battle."
-                      class="blog-banner" width="300">
-                  </a>
-                
-                  <div class="blog-content">
-                
-                    <a href="#" class="blog-category">Glenmark</a>
-                
-                    <h3>
-                      <a href="#" class="blog-title">We have all the divisions of Glenmark, order now.</a>
-                    </h3>
-                
-                    <p class="blog-meta">
-                      By <cite>Team Udyog</cite> / <time datetime="2022-01-18">April 19, 2023</time>
-                    </p>
-                
-                  </div>
-                
-                </div>
-
-                <div class="blog-card">
-                
-                  <a href="#">
-                    <img src="./new assets/images/blog-gsk.png" alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
-                      class="blog-banner" width="300">
-                  </a>
-                
-                  <div class="blog-content">
-                
-                    <a href="#" class="blog-category">GSK</a>
-                
-                    <h3>
-                      <a href="#" class="blog-title">We have all the divisions of Glenmark, order now.</a>
-                    </h3>
-                
-                    <p class="blog-meta">
-                      By <cite>Team Udyog</cite> / <time datetime="2022-02-10">April 19, 2023</time>
-                    </p>
-                
-                  </div>
-                
-                </div>
-
-                <div class="blog-card">
-                
-                  <a href="#">
-                    <img src="./new assets/images/blog-dr.reddy.png" alt="Curbside fashion Trends: How to Win the Pickup Battle."
-                      class="blog-banner" width="300">
-                  </a>
-                
-                  <div class="blog-content">
-                
-                    <a href="#" class="blog-category">Dr. Reddy</a>
-                
-                    <h3>
-                      <a href="#" class="blog-title">We have all the divisions of Dr. Reddy, order now.</a>
-                    </h3>
-                
-                    <p class="blog-meta">
-                      By <cite>Team Udyog</cite> / <time datetime="2022-03-15">April 19, 2023</time>
-                    </p>
-                
-                  </div>
-                
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
+          {/* <!--  BLOG --> */}
 
         </main>
 
+        {/*<!-- FOOTER -->  DONE*/}
+        {/* <!-- custom js link  --> */}
+        <script src="./assets/js/script.js" />
+        <script src="./assets/js/main.js" /> 
 
-        {/* 
-        <!--
-          - FOOTER
-        -->  DONE*/}
-        
- 
-        {/* <!--
-          - custom js link
-        --> */}
-        <script src="./assets/js/script.js"></script>
-        <script src="./assets/js/main.js"></script>
+        {/* <!-- ionicon link  --> */}
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" />
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" />
 
-        {/* <!--
-          - ionicon link
-        --> */}
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-      </div>
-      
     </div>
   )
 }

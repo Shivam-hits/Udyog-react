@@ -1,6 +1,6 @@
 import React from 'react'
-
-function testimonial() {
+import "./testimonial.css"
+function Testimonial() {
   return (
     <div>
         <div class="testimonial">
@@ -20,4 +20,4 @@ function testimonial() {
   )
 }
 
-export default testimonial
+export default Testimonial;
