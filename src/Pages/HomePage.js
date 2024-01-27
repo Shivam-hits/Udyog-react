@@ -22,7 +22,7 @@ function HomePage() {
             </button>
 
             <div class="newsletter-img">
-              <img src="./new assets/images/Newsletter -1.png" alt="subscribe newsletter" width="400" height="400">
+              <img src="./new assets/images/Newsletter -1.png" alt="subscribe newsletter" width="400" height="400" />
             </div>
 
             <div class="newsletter">
@@ -39,7 +39,7 @@ function HomePage() {
 
                 </div>
 
-                <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+                <input type="email" name="email" class="email-field" placeholder="Email Address" required />
 
                 <button type="submit" class="btn-newsletter">Subscribe</button>
 
@@ -974,7 +974,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -997,7 +997,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -1020,7 +1020,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -1043,7 +1043,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -1070,7 +1070,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -1093,7 +1093,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -1116,7 +1116,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
@@ -1139,7 +1139,7 @@ function HomePage() {
                         <div class="showcase">
 
                           <a href="#" class="showcase-img-box">
-                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img">
+                            <img src="./new assets/images/products/combo-Pan 40 & pan d.png" alt="pan 40 and pan d" width="70" class="showcase-img" />
                           </a>
 
                           <div class="showcase-content">
