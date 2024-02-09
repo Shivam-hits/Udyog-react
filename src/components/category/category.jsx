@@ -1,7 +1,7 @@
 import React from 'react'
 import "./category.css"
 
-function category() {
+function Category() {
   return (
     <div>
         <div class="category">
@@ -177,4 +177,4 @@ function category() {
   )
 }
 
-export default category;
+export default Category;

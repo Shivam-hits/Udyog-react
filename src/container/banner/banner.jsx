@@ -1,6 +1,6 @@
 import React from 'react'
 
-function banner() {
+function Banner() {
   return (
     <div>
          <div class="banner">
@@ -246,4 +246,4 @@ function banner() {
   )
 }
 
-export default banner;
+export default Banner;

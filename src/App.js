@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       {/* homepage */}
-      <Landing/>
+      <Header/>
       {/* <Header />
       <Footer /> */}
 

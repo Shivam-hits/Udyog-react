@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Banner from "../container/banner/banner.jsx"
+import Category from "../components/category/category.jsx"
 function HomePage() {
   return (
     <div>
@@ -55,9 +56,9 @@ function HomePage() {
         {/* <!-- MAIN --> */}
         <main>
           {/* <!-- BANNER --> */}
-
+            <Banner />
           {/* <!-- CATEGORY --> */}
-
+          <Category />
           {/* <!-- PRODUCT --> */}
 
           <div class="product-container">
@@ -1489,4 +1490,4 @@ function HomePage() {
   )
 }
 
-export default HomePage;
+export default HomePage; 
